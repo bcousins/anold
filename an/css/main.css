@@ -1,0 +1,1038 @@
+/*
+	main.css
+	Michael Greenhill 2004 for RailPage Australia
+	Modified EXTENSIVELY by Ben Cousins for Asperger's Network
+	© 2004 MGH and 2013 Ben Cousins
+*/
+
+#header { 
+	height:130px;
+	background:#F2F2F2 url('/an/img/b.gif') repeat-x 0% 105%;
+}
+
+#headborder { 
+	background:#F2F2F2 url('/an/img/b.gif') repeat-x 0% 0%; 
+}
+
+#footermgh { 
+	background:#F2F2F2;
+	border:2px dotted #000000;
+	text-align:center; 
+}
+
+.opentable { 
+	background-color:#dddddd;
+	border:solid 1px #151515; 
+}
+
+.block { 
+	background-color:#dddddd;
+	border:solid 1px #151515;
+}
+
+#contenthalf { 
+	position:absolute;
+	top:130px;
+	left:158px;
+	right:158px; 
+}
+
+#contentfull { 
+	position:absolute;
+	top:130px;
+	left:158px;
+	right:0px; 
+}
+
+#contentwide { 
+	position:absolute;
+	top:130px;
+	left:0px;
+	right:0px; 
+}
+
+#slogan { 
+	display:none; 
+}
+
+
+TD {
+	FONT-FAMILY:Verdana,Lucidasans,Helvetica;
+	FONT-SIZE:11px;
+}
+
+BODY {
+	margin:0;
+	background-color:#f2f2f2;
+	FONT-FAMILY:Verdana,Helvetica;
+	FONT-SIZE:11px;
+	scrollbar-face-color:#f2f2f2;
+	scrollbar-arrow-color:#7da3cf;
+	scrollbar-track-color:#ddd;
+	scrollbar-shadow-color:#ccc;
+	scrollbar-highlight-color:#f2f2f2;
+	scrollbar-3dlight-color:#fff;
+	scrollbar-darkshadow-color:#aaa; 
+}
+
+P {
+	FONT-FAMILY:Verdana,Lucidasans,Helvetica;
+	FONT-SIZE:11px;
+}
+
+DIV {
+	FONT-FAMILY:Verdana,Lucidasans,Helvetica;
+	FONT-SIZE:11px;
+}
+
+INPUT {
+	FONT-FAMILY:Verdana,Lucidasans,Helvetica;
+	FONT-SIZE:11px;
+}
+
+TEXTAREA {
+	FONT-FAMILY:Verdana,Lucidasans,Helvetica;
+	FONT-SIZE:11px;
+}
+
+FORM {
+	FONT-FAMILY:Verdana,Lucidasans,Helvetica;
+	FONT-SIZE:11px;
+}
+
+A:link {
+	COLOR:#000000;
+	TEXT-DECORATION:underline;
+}
+
+A:active {
+	COLOR:#ff0000;
+	TEXT-DECORATION:underline;
+}
+
+A:visited {
+	COLOR:#000000;
+	TEXT-DECORATION:underline;
+}
+
+A:hover {
+	COLOR:#000080;
+	TEXT-DECORATION:none;
+}
+
+hr { 
+	color:#000000; 
+}
+
+.tpshadow {
+	FILTER:dropShadow(color: #999999, offx=5, offy=5);
+}
+
+.slogan {
+	BACKGROUND:none;
+	COLOR:#000000;
+	FONT-SIZE:14px;
+	FONT-WEIGHT:900;
+	TEXT-DECORATION:none;
+}
+
+.title {
+	BACKGROUND:none;
+	COLOR:#000000;
+	FONT-SIZE:13px;
+	FONT-WEIGHT:bold;
+	TEXT-DECORATION:none;
+}
+
+.ticktext {
+	COLOR:#ffffff;
+	FONT-SIZE:11px;
+	FONT-WEIGHT:bold;
+	FONT-FAMILY:Verdana,Courier New, Courier;
+}
+
+.tkfineprint {
+	FONT-SIZE:9px;
+	padding-top:4px;
+}
+
+.tkimg {
+	position:relative;
+	top:1px;
+}
+
+.tkbg { 
+	border:solid 1px #000000;
+	text-align:center;
+	background:transparent url('/an/img/h3.gif') repeat-x 0% 0%;
+	letter-spacing:2px;
+	color:#ffffff;
+	font-weight:bold; 
+}
+
+.content {
+	BACKGROUND:none;
+	COLOR:#000000;
+	FONT-SIZE:11px;
+}
+
+.storytitle {
+	BACKGROUND:none;
+	FONT-SIZE:14px;
+	FONT-WEIGHT:bold;
+	TEXT-DECORATION:none;
+}
+
+.storycat {
+	BACKGROUND:none;
+	FONT-SIZE:13px;
+	FONT-WEIGHT:bold;
+	FONT-FAMILY:Verdana, Helvetica;
+}
+
+.boxtitle {
+	BACKGROUND:none;
+	COLOR:#252525;
+	FONT-SIZE:13px;
+	FONT-WEIGHT:500;
+	TEXT-DECORATION:none;
+}
+
+.boxcontent {
+	BACKGROUND:none;
+	COLOR:#000000;
+	FONT-SIZE:12px;
+}
+
+.option {
+	BACKGROUND:none;
+	FONT-SIZE:13px;
+	FONT-WEIGHT:bold;
+	TEXT-DECORATION:none;
+}
+
+.tiny {
+	BACKGROUND:none;
+	COLOR:#000000;
+	FONT-SIZE:10px;
+	FONT-WEIGHT:normal;
+	TEXT-DECORATION:none;
+}
+
+.footmsg {
+	BACKGROUND:none;
+	COLOR:#000000;
+	FONT-SIZE:9px;
+	FONT-WEIGHT:normal;
+	TEXT-DECORATION:none;}
+
+.footmsg_l {
+	BACKGROUND:none;
+	FONT-SIZE:9px;
+	FONT-WEIGHT:normal;
+}
+
+.box {
+	FONT-SIZE:11px;
+	border:1px solid #000000;
+	background-color:#FFFFFF;
+}
+
+.sommairetd { 
+	font-size: 8px; 
+}
+
+
+.b_h { 
+	text-align:center;
+	height:25px;
+	background:transparent url('/an/img/h.gif') repeat-x 0% 0%;
+	padding-bottom:5px;
+	letter-spacing:2px;
+	color:#ffffff;
+	font-weight:bold; 
+}
+
+.b_hs { 
+	text-align:center;
+	height:18px;
+	background:transparent url('/an/img/h3.gif') repeat-x 0% 0%;
+	letter-spacing:2px;
+	color:#ffffff;
+	font-weight:bold;
+	text-transform: lowercase;
+}
+
+.b_sh { 
+	width:148px;
+	height:25px;
+	text-align:center;
+	background:transparent url('/an/img/sh.gif') repeat-x 0% 0%;
+	padding-top:3px;
+	letter-spacing:2px;
+	color:#000080;
+	font-weight:bold;
+	margin-top:5px; 
+}
+
+.b_s_d { 
+	height:15px;
+	background:transparent url('/web/20050830081604/http://www.railpage.com.au/i/bx.gif') repeat-x 0% 0%; 
+}
+
+.b_s_sh { 
+	height:25px;
+	text-align:center;
+	background:transparent url('/an/img/sh.gif') repeat-x 0% 0%;
+	padding-bottom:5px;
+	letter-spacing:2px;
+	color:#000080;
+	font-weight:bold; 
+}
+
+.b_h_s { 
+	cursor:pointer; 
+}
+
+.b_s_m { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/b/s.gif');
+	padding-bottom:5px;
+	padding-left:20px;
+	margin-left:0px;
+	font-weight:bold;
+	letter-spacing:0px; 
+}
+
+.b_s_mi { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/b/sa.gif');
+	padding-bottom:5px;
+	padding-left:20px;
+	margin-left:0px;
+	font-weight:bold;
+	letter-spacing:0px; 
+}
+
+.b_s_ma { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/b/sr.gif');
+	padding-bottom:5px;
+	padding-left:20px;
+	margin-left:0px;
+	font-weight:bold;
+	letter-spacing:0px; 
+}
+
+a.b_l_h, a.b_l_h:link, a.b_l_h:visited, a.b_l_h:active { 
+	letter-spacing:2px;
+	color:#ffffff;
+	font-weight:bold;
+	text-decoration:none; 
+}
+
+a.b_l_h:hover { 
+	color:#dddddd; 
+}
+
+.b_u_u { 
+	margin-left:2px;
+	height:200px;
+	overflow:auto; 
+}
+
+ul.sp { 
+	padding-bottom:5px;
+	padding-left:20px;
+	margin-left:0px;
+	letter-spacing:0px; 
+}
+
+li.r { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/b/sr.gif'); 
+}
+
+li.g { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/b/s.gif');
+}
+
+li.y { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/b/sa.gif'); 
+}
+
+li.ga { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/b/sani.gif'); 
+}
+
+li.pr { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/f/vt/pr.gif'); 
+}
+
+li.pm { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/f/vt/pm.gif'); 
+}
+
+li.e { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/f/vt/e.gif'); 
+}
+
+li.w { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/f/vt/www.gif'); 
+}
+
+li.msn { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/f/vt/msn.gif'); 
+}
+
+li.aim { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/f/vt/aim.gif'); 
+}
+
+li.yim { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/f/vt/yim.gif'); 
+}
+
+li.icq { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/f/vt/icq.gif'); 
+}
+
+li.q { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/f/vt/q.gif'); 
+}
+
+li.ed { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/f/vt/ed.gif'); 
+}
+
+li.d { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/f/vt/x.gif'); 
+}
+
+li.ip { 
+	list-style-image:url('/web/20050830081604/http://www.railpage.com.au/i/f/vt/ip.gif'); 
+}
+
+ul.pd { 
+	padding-bottom:5px;padding-left:20px;margin-left:0px;font-weight:bold; 
+}
+
+div.f_po { 
+	width:150px;
+	text-align:center;
+	padding-top:2px;
+	padding-bottom:3px;
+	background:transparent url('/web/20050830081604/http://www.railpage.com.au/i/b/sh2.gif') repeat-x 0% 0%;
+	letter-spacing:2px;
+	color:#000080;
+	font-weight:bold;
+	border:solid 1px #000000;
+	cursor:pointer; 
+}
+
+.m_pad { 
+	padding:7px; 
+}
+
+font,th,td,p { 
+	font-family:Verdana, Arial, Lucidasans, Helvetica, sans-serif;
+}
+
+hr.f	{ 
+	height:0px;
+	border:solid #dddddd 0px;
+	border-top-width:1px;
+}
+
+.bodyline	{ 
+	background-color:#FFFFFF;
+	border:1px #98AAB1 solid; 
+}
+
+.forumline	{ 
+	background-color:#FFFFFF;
+	border:2px #006699 solid; 
+}
+
+.row1	{ 
+	background-color:#F2F2F2; 
+}
+
+.row2	{ 
+	background-color:#f2f2f2; 
+}
+
+.row3	{ 
+	background-color:#ECECEC; 
+}
+
+td.rowx { 
+	background-color:#F2F2F2;
+	padding:10px;
+	cursor:pointer;
+	border:solid 1px #f2f2f2; 
+}
+
+td.rowx:hover { 
+	background-color:#ECECEC;
+	border:solid 1px #ddd; 
+}
+
+td.rowx:active { 
+	background-color:#ddd;
+	border:solid 1px #bbb; 
+}
+
+td.rowy { 
+	background:#F2F2F2 url('/web/20050830081604/http://www.railpage.com.au/i/f/bg.gif') repeat-y 50% 0%; 
+}
+
+td.rowz { 
+	background:#F2F2F2 url('/web/20050830081604/http://www.railpage.com.au/i/f/bg1.gif') repeat-y 50% 0%; 
+}
+
+td.rowpic { 
+	background-color:#FFFFFF;
+	background-image:url(/web/20050830081604/http://www.railpage.com.au/i/f/cellpic1.gif); 
+}
+
+th { 
+	color:#ffffff;
+	font-size:11px;
+	font-weight:bold;
+	height:25px;
+	background:#006699; 
+}
+
+td.cat,td.catHead,td.catSides,td.catLeft,td.catRight,td.catBottom { 
+	background-image:url(/web/20050830081604/http://www.railpage.com.au/i/f/cellpic1.gif);
+	background-color:#ECECEC;
+	border:#FFFFFF;
+	border-style:solid;
+	height:28px; 
+}
+
+td.cat,td.catHead,td.catBottom { 
+	height:29px;
+	border-width:0px 0px 0px 0px; 
+}
+
+th.thHead,th.thSides,th.thTop,th.thLeft,th.thRight,th.thBottom,th.thCornerL,th.thCornerR { 
+	font-weight:bold;
+	border:#FFFFFF;
+	border-style:solid;
+	height:28px; 
+}
+
+td.row3Right { 
+	background-color:#ececec;
+	border:#FFFFFF;
+	border-style:solid; 
+}
+
+td.spaceRow { 
+	height:9px;
+	background:#f2f2f2 url(/web/20050830081604/http://www.railpage.com.au/i/f/ps.gif) repeat-x;
+	border-left:solid 1px #909090;
+	border-right:solid 1px #909090; 
+}
+
+
+
+th.thHead,td.catHead { 
+	font-size:12px;
+	border-width:1px 1px 0px 1px; 
+}
+
+th.thSides,td.catSides,td.spaceRow { 
+	border-width:0px 1px 0px 1px; 
+}
+
+th.thRight,td.catRight,td.row3Right { 
+	border-width:0px 1px 0px 0px; 
+}
+
+th.thLeft,td.catLeft{ 
+	border-width:0px 0px 0px 1px; 
+}
+
+th.thBottom,td.catBottom  { 
+	border-width:0px 1px 1px 1px; 
+}
+
+th.thTop	 { 
+	border-width:1px 0px 0px 0px; 
+}
+
+th.thCornerL { 
+	border-width:1px 0px 0px 1px; 
+}
+
+th.thCornerR { 
+	border-width:1px 1px 0px 0px; 
+}
+
+
+a.maintitle { 
+	font-weight:bold;
+	font-size:22px;
+	font-family:"Trebuchet MS", Verdana, Arial, Lucidasans, Helvetica, sans-serif;
+	text-decoration:none;
+	line-height:120%; 
+}
+
+a.maintitle:visited, a.maintitle:active, a.maintitle:link { 
+	text-decoration:none; 
+}
+
+a.maintitle:hover { 
+	text-decoration:underline; 
+}
+
+.gen { 
+	font-size:12px; 
+}
+
+.genmed { 
+	font-size:11px; 
+}
+
+.gensmall { 
+	font-size:10px; 
+}
+
+.gen,.genmed,.gensmall { 
+	color:#000000; 
+}
+
+.cattitle { 
+	font-weight:bold;
+	font-size:12px;
+	letter-spacing:1px; 
+}
+
+a.cattitle { 
+	text-decoration:none; 
+}
+
+a.cattitle:hover { 
+	text-decoration:underline; 
+}
+
+a.cattitle:visited { 
+	text-decoration:none; 
+}
+
+.forumlink { 
+	font-weight:bold;
+	font-size:12px; 
+}
+
+a.forumlink:link { 
+	text-decoration:none; 
+}
+
+a.forumlink:visited { 
+	text-decoration:none; 
+}
+
+a.forumlink:hover { 
+	text-decoration:underline; 
+}
+
+.nav  { 
+	font-weight:bold;
+	font-size:11px;
+}
+
+.topictitle,h1,h2 { 
+	font-weight:bold;
+	font-size:11px; 
+}
+
+a.topictitle:link { 
+	text-decoration:none; 
+}
+
+a.topictitle:visited { 
+	text-decoration:none; 
+}
+
+a.topictitle:hover { 
+	text-decoration:underline; 
+}
+
+.name { 
+	font-size:11px; 
+}
+
+.postdetails { 
+	font-size:10px; 
+}
+
+.postbody { 
+	font-size:12px;
+	line-height:18px; 
+}
+
+.code { 
+	font-family:Courier, 'Courier New', sans-serif;
+	font-size:11px;
+	color:#006600;
+}
+
+.quote { 
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:11px;
+	color:#444444;
+	line-height:125%;
+	background-color:#FAFAFA;
+	border:#D1D7DC;
+	border-style:solid;
+	border-left-width:1px;
+	border-top-width:1px;
+	border-right-width:1px;
+	border-bottom-width:1px 
+}
+
+.copyright { 
+	font-size:10px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	color:#444444;
+	letter-spacing:-1px; 
+}
+
+a.copyright:link, a.copyright:visited, a.copyright:active { 
+	color:#444444;
+	text-decoration:none;
+}
+
+a.copyright:hover { 
+	text-decoration:underline; 
+}
+
+input,textarea, select { 
+	color:#000000;
+	font:normal 11px Verdana, Arial, Helvetica, sans-serif; 
+}
+
+input.post, textarea.post, select { 
+	background-color:#FFFFFF; 
+}
+
+input { 
+	text-indent:2px; 
+}
+
+input.button { 
+	background-color:#EFEFEF;
+	color:#000000;
+	font-size:11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif; 
+}
+
+input.mainoption { 
+	background-color:#FAFAFA;
+	font-weight:bold; 
+}
+
+input.liteoption { 
+	background-color:#FAFAFA;
+	font-weight:normal; 
+}
+
+.helpline { 
+	background-color:#f2f2f2;
+	border-style:none; 
+}
+
+/* MGH addons 16/08/05 */
+.pollbgtop { 
+	background:#E4E4E4 url(/web/20050830081604/http://www.railpage.com.au/i/f2/pollbgtop.gif) repeat-x scroll 0% 0%; 
+}
+
+@import url("http://web.archive.org/web/20050830081604/http://www.railpage.com.au/templates/forums/formIE.css");
+
+.s { 
+	height:1px;
+	width:1px;
+}
+
+.b_u_p { 
+	width:17;
+	height:12; 
+}
+
+.b_u_m { 
+	width:14;
+	height:10; 
+}
+
+.b_u_g { 
+	width:17;
+	height:14; 
+}
+
+.b_u_u { 
+	margin-left:21px; 
+}
+
+.b_u_a { 
+	color:#000080;
+	font-weight:bold; 
+}
+
+.b_u_mo { 
+	color:#006600;
+	font-weight:bold; 
+}
+
+.b_f_h { 
+	font-weight:bold;
+	color:#666666;
+	text-decoration:none; 
+}
+
+.b_f_d { 
+	color:#666666;
+	text-decoration:italic; 
+}
+
+a.b_f_h { 
+	font-weight:bold;
+	color:#000000;
+	text-decoration:none; 
+}
+
+a.b_f_d { 
+	color:#666666;
+	text-decoration:italic; 
+}
+
+a.b_f_d:link { 
+	color:#666666;
+	text-decoration:italic; 
+}
+
+a.b_f_d:visited { 
+	color:#666666;
+	text-decoration:italic; 
+}
+
+a.b_f_d:active { 
+	color:#666666;
+	text-decoration:italic; 
+}
+
+.b_s_n { 
+	width:11px;
+	height:1px; 
+}
+
+.b_s_t { 
+	position:relative;
+	right:3px; 
+}
+
+.b_s_l { 
+	position:relative;
+	right:3px;
+	top:2px; 
+}
+
+.b_s_d { 
+	margin-left:11px;
+	border-left:#6f6f6f 1px solid; 
+}
+
+.b_s_c { 
+	position:relative;
+	top:4px; 
+}
+
+#header { 
+	position:absolute;
+	width:100%;
+	height:116px;
+	top:0;
+	left:0; 
+}
+
+#blocks_left, #blocks_right { 
+	position: absolute;
+	top: 130px;
+	width: 138px;
+	z-index:2; 
+} 
+
+#blocks_left { 
+	left:0;
+	float:left; 
+}
+
+#blocks_right { 
+	right:0;
+	float:right; 
+}
+
+#content { 
+	position:absolute;
+	top:130px;
+	margin-left:158px;
+	margin-right:138px; 
+}
+
+#footer { 
+	position:absolute;
+	width:100%;
+	text-align:center; 
+}
+
+.m_g_mq { 
+	margin: 0px 0px 0px 10px; 
+}
+
+.m_f_mp { 
+	width:12;
+	height:9;
+	border:0; 
+}
+
+#content{ 
+	background: #ddd;
+	border:1px solid #000;
+	width:85%;
+	float:right;
+	margin-right:1px;
+	margin-top:-100px;
+	margin-left: 0px;
+	padding:5px;
+}
+
+.cat{
+	padding-left:12px;
+	font-size: 24;
+	font-weight:bold;
+	background:#eee;
+	margin: 0 auto;
+	width:990px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+.cat-fhead{
+	padding-left:12px;
+	font-size: 24;
+	font-weight:bold;
+	background:#eee;
+	margin: 0 auto;
+	width:1000px;
+	border-top-left-radius: 12px;
+	border-top-right-radius: 12px;
+}
+
+/*The forums table, and all the shit to go with it.*/
+table.forums{
+	width:1002px;
+	border:0;
+	border-spacing: 0;
+	margin:0 auto;
+	box-shadow: 0 2px 14px rgba(0, 0, 0, 0.25)
+}
+
+
+
+/*The forumspost table, and all the shit to go with it.*/
+table.forumposts{
+	width:1012px;
+	border:0;
+	border-spacing: 0;
+	margin:0 auto;
+	box-shadow: 0 2px 14px rgba(0, 0, 0, 0.25)
+}
+
+table.forums tr td.f-link{
+	background:#eee;
+	border-bottom:1px solid #ccc;
+	padding:0.5em 1em 0.4em 1em;
+	text-shadow:0 1px 0 white;
+	width:30%;
+}
+
+
+table.forumposts tr td.u-post-content{
+	background:#ccc;
+	border-bottom:1px solid #222;
+	padding:0.5em 1em 0.4em 1em;
+	width:70%;
+}
+
+table.forumposts tr td.u-details{
+	background:#eee;
+	border-bottom:1px solid #222;
+	padding:0.5em 1em 0.4em 1em;
+	text-shadow:0 1px 0 white;
+	width:20%;
+	text-align:center;
+	vertical-align: top;
+}
+
+table.forumposts tr td.u-tlinks{
+	background:#eee;
+	border-bottom:1px solid #222;
+	padding:0.5em 1em 0.4em 1em;
+	text-shadow:0 1px 0 white;
+	width:20%;
+	text-align:left;
+	vertical-align: top;
+}
+
+table.forumposts tr td.u-plinks{
+	background:#eee;
+	border-bottom:1px solid #222;
+	padding:0.5em 1em 0.4em 1em;
+	text-shadow:0 1px 0 white;
+	width:20%;
+	text-align:right;
+	vertical-align: bottom;
+}
+
+table.forumposts tr td.u-post-content{
+	background:#ccc;
+	border-bottom:1px solid #222;
+	padding:0.5em 1em 0.4em 1em;
+	width:60%;
+}
+table.forums td.f-link a, table.forums td.f-link a:visited{
+	text-decoration:none;
+	color:blue;
+	font-weight: bold;
+}
+
+table tbody tr td.f-link a:hover, a:focus{
+	text-decoration:underline;
+	color:#9ACD32;
+}
+table.forums tbody tr td.f-recent{
+	background: #DDD;
+	border-bottom:1px solid #CCC;
+	padding:0.35em 1em 0.35em 1em
+	font:normal 0.8em 'Lucida Grande', Verdana, Arial, sans-serif;
+	color:gray;
+	text-shadow:0 1px 0 rgba(255, 255, 255, 0.7);
+	padding-left:2px;
+	width:70%;
+}
+
+#forums{
+	width:1000px;
+	margin:0 auto;
+}
+
+.bbcode_quote_head{
+	padding-right:30px;
+	font-family: Helvetica, sans-serif;
+}
+
+.bbcode_quote_body{
+	padding:5px;
+	border: 1px solid #222;
+	background: #eee
+	;
+}

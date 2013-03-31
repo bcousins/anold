@@ -1,0 +1,2 @@
+[03-Jan-2013 06:46:06 Europe/Moscow] PHP Warning:  file(toaster/poweredby.txt) [<a href='function.file'>function.file</a>]: failed to open stream: No such file or directory in /home/anetwork/public_html/tmp/footer.php on line 52
+[03-Jan-2013 06:46:06 Europe/Moscow] PHP Warning:  array_rand() expects parameter 1 to be array, boolean given in /home/anetwork/public_html/tmp/footer.php on line 53
